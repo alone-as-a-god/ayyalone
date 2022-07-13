@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.gradientBackground {
+    background: rgb(121,9,107);
+    background: linear-gradient(90deg, rgba(121,9,107,1) 16%, rgba(255,0,116,1) 100%);  
+}
+*{
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
