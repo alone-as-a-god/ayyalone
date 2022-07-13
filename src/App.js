@@ -28,11 +28,12 @@ function App() {
         </ScrollPage>
         <ScrollPage page={2}>
           <Animator>
-             <CustomFooter/>
+             
           </Animator>
         </ScrollPage>
         
       </ScrollContainer>
+      <CustomFooter/>
       
     </div>
     
