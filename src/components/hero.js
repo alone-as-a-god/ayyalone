@@ -22,7 +22,7 @@ function Hero(){
                         
                     </div>
                     <div class="mockup-code text-left m-6">
-                        <pre data-prefix=">"><code>I am Jonathan Seyr, a 20-year old Software Developer based in Vienna, Austria</code></pre> 
+                        <pre data-prefix=">"><code>I am Jonathan Seyr, a 20-year old Software Developer based in Vienna, Austria.</code></pre> 
                         <pre data-prefix=">"><code>I'm currently studying Media Informatics and Visual Computing</code></pre> 
                         <pre data-prefix=">"><code>at Technical University Vienna. </code></pre>
                         <pre data-prefix=">"><code>On this website you'll be able to find some of my current and past projects </code></pre>
