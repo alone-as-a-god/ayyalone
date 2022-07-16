@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 
-body {
+/* body {
 	background: linear-gradient(-45deg, #ef1f1f, #bb0a4e, #e819e8);
 	background-size: 400% 400%;
 	animation: gradient 10s ease infinite;
@@ -20,7 +20,7 @@ body {
 	100% {
 		background-position: 0% 50%;
 	}
-}
+} */
 
 .gradientBackground {
     background: rgb(121,9,107);
@@ -31,4 +31,8 @@ body {
 }
 ::-webkit-scrollbar {
   display: none;
+}
+
+.textsheesh{
+	color:white;
 }
