@@ -19,10 +19,20 @@ function Hero(){
 
                 var opacity = 1;
                 if(scrollTop > distanceToTop){
-                    opacity = 1 - (scrollTop - distanceToTop) / elementHeight;
+                    opacity = 1 - (scrollTop - distanceToTop) / elementHeight*2;
                 }
+                if(opacity > 1){
+                    opacity = 1;
+                }
+
+                if(opacity <= 0.06){
+                    opacity = 0;
+                }
+
                 if(opacity >= 0){
                     element.style.opacity = opacity;
+                    console.log("1 - (" + scrollTop + " - " + distanceToTop + ") / " + elementHeight + " * 2 = " + opacity);
+                    element.style.transform = "translate(0px, "+(1-opacity) * 400+"px)";
                 }
             }
         }
